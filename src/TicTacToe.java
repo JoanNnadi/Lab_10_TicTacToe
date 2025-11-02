@@ -79,6 +79,7 @@ public class TicTacToe {
         System.out.println("\n🏁 Thanks for playing Tic-Tac-Toe!");
         in.close();
     }
+    // Helper Methods
     // Clears the Scoreboard
     private static void clearBoard() {
         for (int row = 0; row < ROWS; row++) {
@@ -174,7 +175,6 @@ public class TicTacToe {
         xWins = 0;
         oWins = 0;
     }
-
     private static void displayScoreboard() {
         System.out.println("\n========== SCOREBOARD ==========");
         System.out.println("Player X Wins: " + xWins);

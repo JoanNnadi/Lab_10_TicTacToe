@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class SafeInput
 {
         //  SafeInput file holding all the Methods
-
         /**
          * Ensures the user enters a non-empty string.
          */
@@ -169,7 +168,6 @@ public class SafeInput
 
             return input;
         }
-
 
         /**
          * Prints a "pretty" header with a centered message surrounded by asterisks.
